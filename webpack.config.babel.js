@@ -5,7 +5,7 @@ import merge from 'webpack-merge';
 
 const TARGET = process.env.npm_lifecycle_event;
 const ROOT_PATH = path.resolve(__dirname);
-const bower_dir = ROOT_PATH + '/bower_components';
+// const bower_dir = ROOT_PATH + '/bower_components';
 
 var exportModule;
 
@@ -15,7 +15,10 @@ const common = {
         app: path.resolve(ROOT_PATH) + "/src/js/app.js",
     },
     resolve: {
-        modulesDirectories: ['node_modules', 'bower_components']
+        // modulesDirectories: ['node_modules', 'bower_components']
+        alias: {
+            kendo: "kendo-ui-core/src"
+        }
     },
     module: {
         loaders: [{
@@ -80,11 +83,10 @@ const devServerCommon = {
         // hot: true,
         inline: true,
         progress: true
-    }    ,
+    },
     output: {
         publicPath: "/",
-    }
-    ,
+    },
     plugins: [
         new webpack.HotModuleReplacementPlugin()
     ]

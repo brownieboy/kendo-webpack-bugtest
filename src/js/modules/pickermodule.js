@@ -1,4 +1,4 @@
-import 'kendo.datepicker.js';
+import 'kendo/kendo.datepicker.js';
 
 class DatePickerField {
 	constructor(configObj) {
