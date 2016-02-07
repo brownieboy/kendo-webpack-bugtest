@@ -1,3 +1,5 @@
+import 'jquery';
+console.log("jquery imported");
 import 'kendo/kendo.datepicker.js';
 
 class DatePickerField {
