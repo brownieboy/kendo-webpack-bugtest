@@ -34,10 +34,10 @@ const common = {
     },
     plugins: [
         // new BowerWebpackPlugin(),
-        new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jquery"
-        })
+        // new webpack.ProvidePlugin({
+        //     $: "jquery",
+        //     jQuery: "jquery"
+        // })
     ],
     devtool: 'source-map'
 };
