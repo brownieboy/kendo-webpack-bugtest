@@ -1,5 +1,5 @@
-re# kendo-webpack-bugtest
- A test for kendo scrolling bug with ES6 modules and Webpack+Babel.
+# kendo-webpack-bugtest
+A test for kendo scrolling bug with ES6 modules and Webpack+Babel.
 
 ###The Bug
 The bug is that when using KendoUI widgets with ES6 modules, those widgets' pop-up elements become detached from their respective controls as you scroll down the web page.  This example uses the Kendo DatePicker comment, but it also happens with the Kendo Dropdown control and the filter boxes that you get on the Kendo Grid control (available on Professional, paid-for version of Kendo only).
