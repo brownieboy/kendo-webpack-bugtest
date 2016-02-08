@@ -1,4 +1,4 @@
-# kendo-webpack-bugtest
+re# kendo-webpack-bugtest
  A test for kendo scrolling bug with ES6 modules and Webpack+Babel.
 
 ###The Bug
@@ -21,7 +21,7 @@ I think that this might be somehow related to to Kendo's hard dependency on jQue
 
 
 ###Environment
-The code in this repostiory uses Node/npm to install its dependencies.  Setup instructions are:
+The code in this repository uses Node/npm to install its dependencies.  Setup instructions are:
 
 1. Install [Node/npm](https://nodejs.org/en/download/) if you don't have it already.  For Windows, you'll also need a bash shell, which you get if you install [Github for Windows] (https://desktop.github.com/) (make sure you tick the box to install the shell).
 1. In a bash window, git clone this repository.
