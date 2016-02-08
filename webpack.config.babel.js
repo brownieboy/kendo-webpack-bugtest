@@ -14,10 +14,12 @@ const common = {
     entry: {
         app: path.resolve(ROOT_PATH) + "/src/js/app.js",
     },
+    // fallback: path.join(__dirname, "bower_components/kendo-ui"),
     resolve: {
-        // modulesDirectories: ['node_modules', 'bower_components']
+         modulesDirectories: ['node_modules', 'bower_components'],
+        // modulesDirectories: ['node_modules', 'kendo-pro'],
         alias: {
-            kendo: "kendo-ui-core/src"
+            kendo: "kendo-ui/src/js"
         }
     },
     module: {

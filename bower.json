@@ -1,0 +1,25 @@
+{
+  "name": "webpack-kendo",
+  "version": "0.0.1",
+  "authors": [
+    "Michael Brown <brownieboy@gmail.com>"
+  ],
+  "description": "Test of webpack and kendo",
+  "main": "index.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "kendo-ui": "https://bower.telerik.com/bower-kendo-ui.git#~2015.3.1214"
+  }
+}
