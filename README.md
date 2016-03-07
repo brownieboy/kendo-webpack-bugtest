@@ -36,6 +36,10 @@ My code uses Babel to transpile ES6 modules into ES5.  I've tried to follow the 
 The problem also occurs if I use SystemJS to transpiles in the browser, rather than with Webpack's build step.   I've set up a [separate Github repository to test this problem with SystemJS](https://github.com/brownieboy/kendo-systemjs)
 
 
+###Update 08/03/2016 - Bug Found!
+This turned out to be a bug in the version of jQuery that I was using, version 2.20.  This is not a supported version of jQuery for Kendo, as it says on the [JavaScript Prerequisites page on Telerik's site](http://docs.telerik.com/kendo-ui/intro/installation/prerequisites), (slaps self in forehead for not reading this first!).
+
+Changing the version of jQuery from 2.2.0 back down to 2.1.4 solved the problem.
 
 
 
